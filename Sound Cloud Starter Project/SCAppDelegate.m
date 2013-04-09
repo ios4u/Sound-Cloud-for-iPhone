@@ -7,8 +7,15 @@
 //
 
 #import "SCAppDelegate.h"
+#import "SCUI.h"
 
 @implementation SCAppDelegate
+
++(void)initialize {
+    [SCSoundCloud setClientID:kSoundCloudAppid
+                       secret:kSoundCloudAppSecret
+                  redirectURL:[NSURL URLWithString:kSoundCloudURL]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
