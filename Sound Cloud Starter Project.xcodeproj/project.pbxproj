@@ -30,6 +30,8 @@
 		64811BA617139DE600546D1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64811BA517139DE600546D1C /* QuartzCore.framework */; };
 		64811BA817139DEB00546D1C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64811BA717139DEB00546D1C /* Security.framework */; };
 		64811BAA17139E3100546D1C /* SoundCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64811BA917139E3100546D1C /* SoundCloud.bundle */; };
+		64811BAE1713A23900546D1C /* SCListingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64811BAC1713A23900546D1C /* SCListingsViewController.m */; };
+		64811BAF1713A23900546D1C /* SCListingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64811BAD1713A23900546D1C /* SCListingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +165,9 @@
 		64811BA517139DE600546D1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		64811BA717139DEB00546D1C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		64811BA917139E3100546D1C /* SoundCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SoundCloud.bundle; path = ../CocoaSoundCloudUI/SoundCloud.bundle; sourceTree = "<group>"; };
+		64811BAB1713A23900546D1C /* SCListingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListingsViewController.h; sourceTree = "<group>"; };
+		64811BAC1713A23900546D1C /* SCListingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListingsViewController.m; sourceTree = "<group>"; };
+		64811BAD1713A23900546D1C /* SCListingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCListingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +237,9 @@
 				64811B5A17139A7100546D1C /* SCViewController.h */,
 				64811B5B17139A7100546D1C /* SCViewController.m */,
 				64811B6217139ACE00546D1C /* Constants.h */,
+				64811BAB1713A23900546D1C /* SCListingsViewController.h */,
+				64811BAC1713A23900546D1C /* SCListingsViewController.m */,
+				64811BAD1713A23900546D1C /* SCListingsViewController.xib */,
 				64811B6317139C7000546D1C /* SoundCloudSupportFiles */,
 				64811B4617139A7100546D1C /* Supporting Files */,
 			);
@@ -460,6 +468,7 @@
 				64811B5617139A7100546D1C /* Default-568h@2x.png in Resources */,
 				64811B5917139A7100546D1C /* MainStoryboard.storyboard in Resources */,
 				64811BAA17139E3100546D1C /* SoundCloud.bundle in Resources */,
+				64811BAF1713A23900546D1C /* SCListingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +482,7 @@
 				64811B4C17139A7100546D1C /* main.m in Sources */,
 				64811B5017139A7100546D1C /* SCAppDelegate.m in Sources */,
 				64811B5C17139A7100546D1C /* SCViewController.m in Sources */,
+				64811BAE1713A23900546D1C /* SCListingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
